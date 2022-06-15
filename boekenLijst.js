@@ -1,29 +1,31 @@
 "use strict";
 
-import bib from "boekenLijst.js";
+import bib from "./boeken.js";
 
 console.log(bib);
 
 bib.forEach((boek) => {
-    document.getElementById('boekenLijst__boekenWrapper').innerHTML = `<div class="boekenLijst__boekenWrapper__boek">
-    <div class="boekenLijst__boekenWrapper__boek__img">
-        <img src="${boek.img_url}">
+    let shortBeschrijving = boek.beschrijving.substr(0, 100);
+    shortBeschrijving += "...";
+    console.log(shortBeschrijving);
+    document.getElementById('boekenLijst__boekenWrapper').innerHTML += `<div class="boekenLijst__boekenWrapper__boek">
+    <div>
+        <img src="${boek.image_url}"  class ="boekenLijst__boekenWrapper__boek__img">
         <div class="boekenLijst__boekenWrapper__boek__img__heart">
-            INSERT HEART HERE
-            <img>
+            <img src ="./heart_noFill.png">
         </div>
     </div>
     <div class="boekenLijst__boekenWrapper__boek__info">
         <h2>${boek.titel}</h2>
-        <h2>${boek.beschrijving}</h2>
+        <p>${shortBeschrijving}</p>
         <div class="boekenLijst__boekenWrapper__boek__info__buttons">
             <p class="boekenLijst__boekenWrapper__boek__info__buttons__leesNiveau button">
-                ${boek.leesNiveau}
+                ${boek.leesniveau}
             </p>
-            <p class="boekenLijst__boekenWrapper__boek__info__buttons__genre">
+            <p class="boekenLijst__boekenWrapper__boek__info__buttons__genre button">
                 ${boek.genre}
             </p>
         </div>
     </div>
-    </div>`
+    </div>`;
 });
