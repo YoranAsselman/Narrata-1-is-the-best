@@ -1,0 +1,69 @@
+ body {
+     margin: 0;
+     width: 100%;
+ }
+
+
+ .boekenLijst__topBar {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ #boekenLijst__topBar img {
+     width: 10px;
+ }
+
+ #boekenLijst__genres {
+     height: 100%;
+     position: relative;
+     white-space: nowrap;
+     overflow: auto;
+     /*Show horizontal scroll*/
+     /*Added this*/
+ }
+
+ #boekenLijst__genres p {
+
+     /*     OVERGENOMEN VAN .BUTTON __> style.CSS*/
+     padding: 5px 15px;
+     border-radius: 20px;
+     background-color: #F9AC48;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+     margin-left: 10px;
+     text-align: center;
+
+
+     display: inline-block;
+     vertical-align: top;
+     /*to remove unwanted whitespace */
+     position: relative;
+ }
+
+
+ #boekenLijst__filterAndSort {
+     display: flex;
+ }
+
+ /*  NO COPY */
+ .button {
+     padding: 5px 15px;
+     border-radius: 20px;
+     background-color: #F9AC48;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+     margin-left: 10px;
+     text-align: center;
+ }
+
+ .sorteren {
+     width: 70%;
+ }
+
+ .boekenLijst__boekenWrapper__boek {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .boekenLijst__boekenWrapper__boek__info__buttons {
+     display: flex;
+     justify-content: space-between;
+ }
