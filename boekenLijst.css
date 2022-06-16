@@ -74,14 +74,17 @@ body {
     height: 100%;
     position: relative;
     white-space: nowrap;
-    overflow: auto;
+    overflow-x: auto;
     /*Show horizontal scroll*/
     /*Added this*/
 }
 
-#boekenLijst__genres p {
+#boekenLijst__genres button {
 
     /*     OVERGENOMEN VAN .BUTTON __> style.CSS*/
+
+    flex: 0 0 auto;
+    border: none;
     padding: 5px 15px;
     border-radius: 20px;
     background-color: #F9AC48;
@@ -134,6 +137,11 @@ body {
     text-align: center;
 }
 
+#boekenLijst__filterAndSort__hartjesButton img {
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+}
 
 /************************INFO***************************/
 
@@ -172,4 +180,9 @@ body {
     transform: translateY(-60px);
     background-color: #fff;
     padding: 10px 10px;
+}
+
+.heartIMG,
+.boekenLijst__filterAndSort__alfabetischSortButton {
+    cursor: pointer;
 }
