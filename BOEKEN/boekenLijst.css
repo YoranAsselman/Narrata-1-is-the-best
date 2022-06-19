@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-image: url('BACKGROUND\ \(1\).png');
+}
+
+
+.ellipse {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+
+.bol img {
+    position: fixed;
+    width: 50px;
+}
+
+.profile {
+
+    position: fixed;
+    top: 88%;
+    left: 6%;
+}
+
+.boek {
+
+    position: fixed;
+    top: 85%;
+    left: 30%;
+}
+
+.levels {
+
+    position: fixed;
+    top: 85%;
+    left: 55%;
+}
+
+.boekata {
+
+    position: fixed;
+    top: 88%;
+    left: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#boekenLijst__topBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+
+}
+
+#inpuuut {
+    position: flex-end;
+    border-radius: 20px;
+}
+
+#boekenLijst__topBar img {
+    width: 20px;
+}
+
+#boekenLijst__genres {
+    height: 100%;
+    position: relative;
+    white-space: nowrap;
+    overflow-x: auto;
+    /*Show horizontal scroll*/
+    /*Added this*/
+}
+
+#boekenLijst__genres button {
+
+    /*     OVERGENOMEN VAN .BUTTON __> style.CSS*/
+
+    flex: 0 0 auto;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #F9AC48;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    text-align: center;
+
+
+    display: inline-block;
+    vertical-align: top;
+    /*to remove unwanted whitespace */
+    position: relative;
+}
+
+
+#boekenLijst__filterAndSort {
+    display: flex;
+}
+
+/*  NO COPY */
+.button {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #F9AC48;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    text-align: center;
+}
+
+.sorteren {
+    width: 70%;
+}
+
+.boekenLijst__boekenWrapper__boek {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
+#boekenLijst__filterAndSort__hartjesButton img {
+    width: 20px;
+    align-self: center;
+
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #F9AC48;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    text-align: center;
+}
+
+#boekenLijst__filterAndSort__hartjesButton img {
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+/************************INFO***************************/
+
+.boekenLijst__boekenWrapper__boek__info {
+    width: 90%;
+}
+
+.boekenLijst__boekenWrapper__boek__info__buttons {
+    display: flex;
+
+}
+
+.boekenLijst__boekenWrapper__boek__info__buttons :first-child {
+    background-color: #02B5B3;
+}
+
+.boekenLijst__boekenWrapper__boek__info__buttons :last-child {
+    background-color: #B3E3B9;
+}
+
+
+.boekenLijst__boekenWrapper__boek__img {
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.boekenLijst__boekenWrapper__boek__img__heart img {
+    width: 40px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    position: absolute;
+    transform: translateY(-60px);
+    background-color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.heartIMG,
+.boekenLijst__filterAndSort__alfabetischSortButton {
+    cursor: pointer;
+}

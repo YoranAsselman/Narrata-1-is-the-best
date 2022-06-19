@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap%27%27');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+
+.iwant__white {
+    background-color: white;
+}
+
+/**SideWhite start**/
+.button__filter {
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.button__filter img {
+    width: 15px;
+}
+
+#button__filter--left {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#button__filter--left img {
+    width: 50px;
+}
+
+#button__filter--blue img {
+    float: right;
+    width: 70px;
+    position: relative;
+    top: 290px;
+    left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+/**SideWhite End**/
+
+/**********************SideBlue Start******************************/
+
+#filters__blue__skin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+    margin-top: 300px;
+    background-color: #ACD2E5;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 90px 15px;
+}
+
+.filters__blue__skin__buttonFilter {
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #84D7FF;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: grab;
+
+}
+
+.filters__blue__skin__buttonFilter img {
+    width: 50px;
+
+}
+
+
+
+
+
+
+
+
+/**SideBlue End**/

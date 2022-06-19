@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+body {
+    margin: 0;
+    background-color: #ACD2E5;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.back img {
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 15px;
+    height: 25px;
+}
+
+.video img {
+    width: 25%;
+    height: 35%;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.commentaar-boekata {
+    font-size: 14px;
+    padding: 30px 20px 0px 20px;
+}
+
+input[type=text-boekata] {
+    width: 100%;
+    padding: 12px 20px 70px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+button-boekata {
+    background-color: #FAAC48;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0px 200px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    width: 40%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}

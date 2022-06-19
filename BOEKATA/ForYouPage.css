@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+body {
+    margin: 0;
+    background-color: #ACD2E5;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-fyp {
+    display: flex;
+    float: left;
+}
+
+.back-fyp {
+    width: 20%;
+}
+
+.back-fyp img {
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 15px;
+    height: 25px;
+    z-index: 10;
+}
+
+
+.button-fyp {
+    background-color: #FAAC48;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 37px 90px 0px 70px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    width: 80%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.video {
+    position: fixed;
+    z-index: -1;
+}

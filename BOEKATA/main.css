@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+
+@import "./algemene/style.css";
+@import "./algemene/style2.css";
+@import "./boekata/boekata.css";
+@import "./boekata/boekata2.css";
+@import "./boekata/ForYouPage.css";
+@import "./challenges/levelsPage.css";
+@import "./footer/footer.css";
+
+body {
+    margin: 0;
+    background-color: #ACD2E5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #F9AC48;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 100px;
+    text-align: center;
+}
